@@ -1,0 +1,90 @@
+
+:root{
+	font-size: 8px;
+}
+
+.my-container{
+	width: 100%;
+	display: flex;
+	flex-wrap:wrap;
+	
+}
+
+.container-item{
+	height: 50vh;
+}
+
+.font{
+	color: white;
+	font-size: 10rem;
+	text-align: center;
+
+}
+.red{
+	background-color:red;
+}
+
+.green{
+	background-color: green;
+}
+.blue{
+	background-color: blue;
+}
+.yellow{
+	background-color: yellow;
+}
+
+
+@media screen and (min-width:728px){
+.red{
+	width:50%;
+}
+
+.green{
+	width:50%;
+}
+.blue{
+	width:50%;
+}
+.yellow{
+	width:50%;
+}
+
+}
+
+
+@media screen and (min-width:427px) and (max-width: 727px){
+.red{
+	width:50%;
+}
+
+.green{
+	width:50%;
+}
+.blue{
+	width:100%;
+}
+.yellow{
+	width:100%;
+
+}
+
+}
+
+@media screen and (max-width:426px){
+.red{
+	width:100%;
+}
+
+.green{
+	width:100%;
+}
+.blue{
+	width:100%;
+}
+.yellow{
+	width:100%;
+}
+
+}
+
